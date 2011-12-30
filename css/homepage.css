@@ -1,0 +1,45 @@
+.outer-cont{
+	position:absolute;
+	top:0px;
+	width:100%;
+	height:100%;
+	background-color:#dedede;
+}
+
+.inner-cont{
+	position:relative;
+	top:0px;
+	max-width:800px;
+	max-height:480px;
+	width:50%;
+	height:100%;
+	background-color:#333;
+	margin-left:auto;
+}
+
+
+.banner{
+	position:relative;
+	top:0px;
+	max-width:800px;
+	height:25%
+	background-color:pink;
+}
+
+.site-desc{
+	max-width:800px;
+	height:25%
+	background-color:yellow;
+}
+
+.lang-list{
+	max-width:800px;
+	height:50%
+	background-color:teal;
+}
+
+.lang{
+	max-width:800px;
+	height:33%
+	background-color:blue;
+}
