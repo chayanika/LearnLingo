@@ -22,19 +22,19 @@
 	position:relative;
 	top:0px;
 	max-width:800px;
-	height:25%
-	background-color:pink;
+	height:25%;
+	background-color:red;
 }
 
 .site-desc{
 	max-width:800px;
-	height:25%
+	height:25%;
 	background-color:yellow;
 }
 
 .lang-list{
 	max-width:800px;
-	height:50%
+	height:50%;
 	background-color:teal;
 }
 
