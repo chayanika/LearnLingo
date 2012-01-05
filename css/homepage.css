@@ -3,7 +3,7 @@
 	top:0px;
 	width:100%;
 	height:100%;
-	background-color: #BFE4FF;
+	background-color: #61B4C0;
 	
 	padding: 0;
 }
@@ -42,13 +42,14 @@
 .lang-list{
 	max-width:800px;
 	height:50%;
-	background-color:#61B4C0;
+	background-color: #BFE4FF;
 }
 
 .lang{
 	max-width:800px;
 	height:33%;
-	background-color: #61B4C0;
+	
+	background-color: #BFE4FF;
 	background-image:url('../images/button_0.png');
 	-webkit-background-size: contain;
 	-moz-background-size:contain;
