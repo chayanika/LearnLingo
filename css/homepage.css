@@ -59,19 +59,6 @@
 	margin-left:50%;
 }
 
-a.button-green-tall, a.button-green-tall:visited {
-background: url(images/repeat.png) 0 -947px;
-border: 1px solid #599F00;
-font-size: 16px;
-padding: 10px 17px;
-text-shadow: #599F00 1px 1px;
--webkit-box-shadow: 0 1px 1px #999;
-border-radius: 5px;
-box-shadow: 0 1px 1px #999;
-color: white;
-cursor: pointer;
-font-family: 'Oswald', arial, serif 
-}
 
 .button.green {
 color: #508217 !important;
