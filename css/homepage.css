@@ -44,11 +44,15 @@
 	height:50%;
 	background-color: #BFE4FF;
 }
+img.lang{
+	text-align: left;
+	height:10px;	
+	width:10px;
+}
 
 .lang{
 	max-width:800px;
 	height:33%;
-	
 	background-color: #BFE4FF;
 	-webkit-background-size: contain;
 	-moz-background-size:contain;
