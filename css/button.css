@@ -39,7 +39,7 @@ Following additional class names are supported:
 	-webkit-user-select: 	none;
 	-moz-user-select: 		none;
 	user-select: 			none;
-	
+	text-align:center;
 	
 /* layout */
 	padding: 				.5em .6em .4em .6em;
