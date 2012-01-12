@@ -31,15 +31,15 @@
 			places : {
 				english : ["Place", "Where is the subway?", "Is the tip included?"],
 				spanish : ["Lugar", "¿Dónde está el metro?", "¿Incluye la propina?"],
-				images : ["../images/youre-welcome.gif", "../images/excuseme.jpg", "../images/doUSpeakSpanish.jpg"],
-				description : ["description1", "If you need to get by someone or leave a group of people: con permiso", "description3"]	
+				images : ["../images/place.jpg", "../images/subway.jpg", "../images/tip.gif"],
+				description : [" ", "If you need to get by someone or leave a group of people: con permiso", " "]	
 				
 			},
 			conversations : {
 				english : ["I don't understand", "I have reservations", "How much is it?", "Which direction?"],
 				spanish : ["No entiendo", "Tego reservaciones", "¿Cuánto cuesta?", "¿Por dónde?"],
-				images : ["../images/", "../images/word2", "../images/word3"],
-				description : ["'No comprendo' also means 'I do not understand'", "description2", "description3"]	
+				images : ["../images/idontunderstand.jpg", "../images/i_have_reservation.jpg", "../images/HowMuchIsIt.gif", "../images/whichdirection1.jpg"],
+				description : ["'No comprendo' also means 'I do not understand'", " ", " "]	
 				
 			}
 		},
@@ -53,15 +53,15 @@
 			},
 			phrases : {english : ["I dont want", "How much?", "Repeat, please."],
 				spanish : ["No quiero", "¿Cuánto cuesta?", "Repita, por favor."],
-				images : ["../images/youre-welcome.gif", "../images/excuseme.jpg", "../images/doUSpeakSpanish.jpg"],
-				description : ["description1", "If you need to get by someone or leave a group of people: con permiso", "description3"]	
+				images : ["../images/IDontWant.gif", "../images/how-much.jpg", "../images/repeatPlease.gif"],
+				description : [" ", " ", " "]	
 				
 			},
 			conversations : {
 				english : ["I need to go to the store", "What's your name?", "Do you speak Spanish?"],
 				spanish : ["Necesito ir a la tienda", "¿Cómo se llama?", "¿Hablo un poquito?"],
-				images : ["../images/word1", "../images/word2", "../images/word3"],
-				description : ["description1", "description2", "description3"]	
+				images : ["../images/store.jpg", "../images/whatIsYourName.jpg", "../images/DoYouSpeakSpanish.jpg"],
+				description : [" ", " ", " "]	
 				
 			}
 		}
