@@ -2,21 +2,21 @@
 	LLSpanish = {
 		business : {
 			words : {
-				english : ["I want", "I need", "to go"],
-				spanish : ["(Yo) Quiero", "Yo necesito", "ir"],
-				images : ["../images/i-want-my-toy-back.jpg", "../images/i-need.jpg", "../images/togo.jpg"],
-				description : ["You must have notice (Yo) which means 'I' is in paranthesis. In Spanish (Yo) is optional and is used only when emphasized. It is been generally left out in everyday speech", " ", "The pronunciation of 'r' is like 'd' in Spanish"]	
+				english : ["Business plan", "to organize", "revenue"],
+				spanish : ["plan de negocios", "organizar", "ingresos"],
+				images : ["../images/business-plan.jpg", "../images/toorganize.jpg", "../images/Revenue.jpg"],
+				description : [" ", " ", " "]	
 			},
 			phrases : {
-				english : ["You welcome", "Excuse me", "Do you speak Spanish?"],
-				spanish : ["De nada", "Perdon", "Hablo un poquito"],
-				images : ["../images/youre-welcome.gif", "../images/excuseme.jpg", "../images/doUSpeakSpanish.jpg"],
-				description : [" ", "If you need to get by someone or leave a group of people: con permiso", " "]		
+				english : ["pleased to meet you (m)", "Excuse me", "How's it going?", "How are you today?"],
+				spanish : ["encantado", "perdón", "¿Cómo te va?", "Cómo está hoy?"],
+				images : ["../images/pleaseToMeetYou.jpg","../images/excuseme.jpg", "../images/howzitgoing.jpg", "../images/howareYouToday.jpg"],
+				description : ["'pleased to meet you (f): encantada'", "If you need to get by someone or leave a group of people: con permiso", " ", " "]		
 			},
 			conversations : {
-				english : ["Thank you very much.", "We appreciate your business.", "word3"],
-				spanish : ["Muchas gracias.", "Apreciamos hacer negocios con usted.", "spword2"],
-				images : ["../images/word1", "../images/word2", "../images/word3"],
+				english : ["Let me introduce myself. My name is...", "Thank you for your business.", "I want to introduce you to a female friend. John, this is Mary.", "We should prepare for the worst."],
+				spanish : ["Déjame presentarme. Mi nombre es...", "Apreciamos hacer negocios con usted.", "Te quiero presentar a una amiga. Juan, te presento a Maria.", "Debemos prepararnos para lo peor."],
+				images : ["../images/Letmeintoducemyself.jpg", "../images/Thank-you-for-your-Business.jpg", "../images/introduce-female-friend.jpg", "../images/WeShouldbepreparedfortheWorst.jpg"],
 				description : ["description1", "description2", "description3"]		
 			}
 		},
@@ -45,10 +45,10 @@
 		},
 		everyday : {
 			words : {
-				english : ["to order", "to drink", "to cook"],
-				spanish : ["ordenar/pedir", "tomar/beber", "cocinar/cocer"],
-				images : ["../images/toOrder.jpg", "../images/toDrink.jpg", "../images/toCook.jpg"],
-				description : ["ordenar is more common. 'Pedir' also means 'to ask for'", "'tomar' is used more commonly than 'beber'", "Both words mean same thing. Speakers in different region will use one or the other"]	
+				english : ["I want", "I need", "to go", "to order", "to drink", "to cook"],
+				spanish : ["(Yo) Quiero", "Yo necesito", "ir", "ordenar/pedir", "tomar/beber", "cocinar/cocer"],
+				images : ["../images/i-want-my-toy-back.jpg", "../images/i-need.jpg", "../images/togo.jpg", "../images/toOrder.jpg", "../images/toDrink.jpg", "../images/toCook.jpg"],
+				description : ["You must have notice (Yo) which means 'I' is in paranthesis. In Spanish (Yo) is optional and is used only when emphasized. It is been generally left out in everyday speech", " ", "The pronunciation of 'r' is like 'd' in Spanish", "ordenar is more common. 'Pedir' also means 'to ask for'", "'tomar' is used more commonly than 'beber'", "Both words mean same thing. Speakers in different region will use one or the other"]
 				
 			},
 			phrases : {english : ["I dont want", "How much?", "Repeat, please."],
