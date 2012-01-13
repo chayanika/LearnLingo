@@ -168,16 +168,7 @@ font-style: normal;
 	height: 10em;
 	width: 10em;
 }
-
-.lang-btn{
-	float:left;
-}
-
-.lang{
-	max-width:800px;
-	height:33%;
-	background-color: #BFE4FF;
-	-webkit-background-size: contain;
+age 
 	-moz-background-size:contain;
 	-k-background-size:contain;
 	background-repeat:no-repeat;
