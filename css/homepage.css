@@ -1,61 +1,61 @@
-.afs-titilliumtext22l { font-family: "TitilliumText22L", "Arial", "Helvetica", "Lucida Grande", "Verdana", "Gill Sans", sans-serif; ;}
+.afs-titilliumtext22l { font-family: "titilliumtext22L", "Arial", "Helvetica", "Lucida Grande", "Verdana", "Gill Sans", sans-serif; ;}
 
-.afs-kontrapunkt { font-family: "Kontrapunkt", Rockwell, serif; font-size: 1.075em;}
+.afs-kontrapunkt { font-family: "kontrapunkt", Rockwell, serif; font-size: 1.075em;}
 
-.afs-lobster-13 { font-family: "Lobster 13", cursive; font-size: 0.954em;}
+.afs-lobster-13 { font-family: "lobster 13", cursive; font-size: 0.954em;}
 
-.afs-inconsolata { font-family: "Inconsolata", Menlo, Courier New, Courier, Mono, monospace; font-size: 1.094em;}
+.afs-inconsolata { font-family: "inconsolata", Menlo, Courier New, Courier, Mono, monospace; font-size: 1.094em;}
 
 
 @font-face {
-font-family: 'TitilliumText22L';
-src: url('/fonts/TitilliumText22L005-webfont.eot');
-src: local('☺'), url('/fonts/TitilliumText22L005-webfont.woff') format('woff'), url('/fonts/TitilliumText22L005-webfont.ttf') format('truetype'), url('/fonts/TitilliumText22L005-webfont.svg#webfontX4pGz9fc') format('svg');
+font-family: 'titilliumtext22L';
+src: url('../fonts/titilliumtext22L005.eot');
+src: local('☺'), url('../fonts/titilliumtext22L005.woff') format('woff'), url('../fonts/titilliumtext22L005.ttf') format('truetype'), url('../fonts/titilliumtext22L005.svg#webfontX4pGz9fc') format('svg');
 font-weight: 700;
 font-style: normal;
 }
 
 
 @font-face {
-font-family: 'TitilliumText22L';
-src: url('/fonts/TitilliumText22L002-webfont.eot');
-src: local('☺'), url('/fonts/TitilliumText22L002-webfont.woff') format('woff'), url('/fonts/TitilliumText22L002-webfont.ttf') format('truetype'), url('/fonts/TitilliumText22L002-webfont.svg#webfontX4pGz9fc') format('svg');
+font-family: 'titilliumtext22L';
+src: url('../fonts/titilliumtext22L002.eot');
+src: local('☺'), url('../fonts/titilliumtext22L002.woff') format('woff'), url('../fonts/titilliumtext22L002.ttf') format('truetype'), url('../fonts/titilliumtext22L002.svg#webfontX4pGz9fc') format('svg');
 font-weight: 200;
 font-style: normal;
 }
 
 
 @font-face {
-font-family: 'TitilliumText22L';
-src: url('/fonts/TitilliumText22L004-webfont.eot');
-src: local('☺'), url('/fonts/TitilliumText22L004-webfont.woff') format('woff'), url('/fonts/TitilliumText22L004-webfont.ttf') format('truetype'), url('/fonts/TitilliumText22L004-webfont.svg#webfontX4pGz9fc') format('svg');
+font-family: 'titilliumtext22L';
+src: url('../fonts/titilliumtext22L004.eot');
+src: local('☺'), url('../fonts/titilliumtext22L004.woff') format('woff'), url('../fonts/titilliumtext22L004.ttf') format('truetype'), url('../fonts/titilliumtext22L004.svg#webfontX4pGz9fc') format('svg');
 font-weight: 500;
 font-style: normal;
 }
 
 
 @font-face {
-font-family: 'TitilliumText22L';
-src: url('/fonts/TitilliumText22L003-webfont.eot');
-src: local('☺'), url('/fonts/TitilliumText22L003-webfont.woff') format('woff'), url('/fonts/TitilliumText22L003-webfont.ttf') format('truetype'), url('/fonts/TitilliumText22L003-webfont.svg#webfontX4pGz9fc') format('svg');
+font-family: 'titilliumtext22L';
+src: url('../fonts/titilliumtext22L003.eot');
+src: local('☺'), url('../fonts/titilliumtext22L003.woff') format('woff'), url('../fonts/titilliumtext22L003.ttf') format('truetype'), url('../fonts/titilliumtext22L003.svg#webfontX4pGz9fc') format('svg');
 font-weight: 400;
 font-style: normal;
 }
 
 
 @font-face {
-font-family: 'TitilliumText22L';
-src: url('/fonts/TitilliumText22L001-webfont.eot');
-src: local('☺'), url('/fonts/TitilliumText22L001-webfont.woff') format('woff'), url('/fonts/TitilliumText22L001-webfont.ttf') format('truetype'), url('/fonts/TitilliumText22L001-webfont.svg#webfontX4pGz9fc') format('svg');
+font-family: 'titilliumtext22L';
+src: url('../fonts/titilliumtext22L001.eot');
+src: local('☺'), url('../fonts/titilliumtext22L001.woff') format('woff'), url('../fonts/titilliumtext22L001.ttf') format('truetype'), url('../fonts/titilliumtext22L001.svg#webfontX4pGz9fc') format('svg');
 font-weight: 400;
 font-style: normal;
 }
 
 
 @font-face {
-font-family: 'TitilliumText22L';
-src: url('/fonts/TitilliumText22L006-webfont.eot');
-src: local('☺'), url('/fonts/TitilliumText22L006-webfont.woff') format('woff'), url('/fonts/TitilliumText22L006-webfont.ttf') format('truetype'), url('/fonts/TitilliumText22L006-webfont.svg#webfontX4pGz9fc') format('svg');
+font-family: 'titilliumtext22L';
+src: url('../fonts/titilliumtext22L006.eot');
+src: local('☺'), url('../fonts/titilliumtext22L006.woff') format('woff'), url('../fonts/titilliumtext22L006.ttf') format('truetype'), url('../fonts/titilliumtext22L006.svg#webfontX4pGz9fc') format('svg');
 font-weight: 400;
 font-style: normal;
 }
@@ -63,27 +63,27 @@ font-style: normal;
 
 
 @font-face {
-font-family: 'Kontrapunkt';
-src: url('/fonts/Kontrapunkt-Bold-webfont.eot');
-src: local('☺'), url('/fonts/Kontrapunkt-Bold-webfont.woff') format('woff'), url('/fonts/Kontrapunkt-Bold-webfont.ttf') format('truetype'), url('/fonts/Kontrapunkt-Bold-webfont.svg#webfontX4pGz9fc') format('svg');
+font-family: 'kontrapunkt';
+src: url('../fonts/kontrapunkt-bold.eot');
+src: local('☺'), url('../fonts/kontrapunkt-bold.woff') format('woff'), url('../fonts/kontrapunkt-bold.ttf') format('truetype'), url('../fonts/kontrapunkt-bold.svg#webfontX4pGz9fc') format('svg');
 font-weight: 700;
 font-style: normal;
 }
 
 
 @font-face {
-font-family: 'Kontrapunkt';
-src: url('/fonts/Kontrapunkt-Light-webfont.eot');
-src: local('☺'), url('/fonts/Kontrapunkt-Light-webfont.woff') format('woff'), url('/fonts/Kontrapunkt-Light-webfont.ttf') format('truetype'), url('/fonts/Kontrapunkt-Light-webfont.svg#webfontX4pGz9fc') format('svg');
+font-family: 'kontrapunkt';
+src: url('../fonts/kontrapunkt-light.eot');
+src: local('☺'), url('../fonts/kontrapunkt-light.woff') format('woff'), url('../fonts/kontrapunkt-light.ttf') format('truetype'), url('../fonts/kontrapunkt-light.svg#webfontX4pGz9fc') format('svg');
 font-weight: 200;
 font-style: normal;
 }
 
 
 @font-face {
-font-family: 'Kontrapunkt';
-src: url('/fonts/Kontrapunkt-LightItalic-webfont.eot');
-src: local('☺'), url('/fonts/Kontrapunkt-LightItalic-webfont.woff') format('woff'), url('/fonts/Kontrapunkt-LightItalic-webfont.ttf') format('truetype'), url('/fonts/Kontrapunkt-LightItalic-webfont.svg#webfontX4pGz9fc') format('svg');
+font-family: 'kontrapunkt';
+src: url('../fonts/kontrapunkt-lightitalic.eot');
+src: local('☺'), url('../fonts/kontrapunkt-lightitalic.woff') format('woff'), url('../fonts/kontrapunkt-lightitalic.ttf') format('truetype'), url('../fonts/kontrapunkt-lightitalic.svg#webfontX4pGz9fc') format('svg');
 font-weight: 200;
 font-style: italic;
 }
@@ -91,9 +91,9 @@ font-style: italic;
 
 
 @font-face {
-font-family: 'Lobster 13';
-src: url('/fonts/Lobster_1.3-webfont.eot');
-src: local('☺'), url('/fonts/Lobster_1.3-webfont.woff') format('woff'), url('/fonts/Lobster_1.3-webfont.ttf') format('truetype'), url('/fonts/Lobster_1.3-webfont.svg#webfontX4pGz9fc') format('svg');
+font-family: 'lobster_1.3';
+src: url('../fonts/lobster_1.3.eot');
+src: local('☺'), url('../fonts/lobster_1.3.woff') format('woff'), url('../fonts/lobster_1.3.ttf') format('truetype'), url('../fonts/lobster_1.3.svg#webfontX4pGz9fc') format('svg');
 font-weight: 400;
 font-style: normal;
 }
@@ -101,9 +101,9 @@ font-style: normal;
 
 
 @font-face {
-font-family: 'Inconsolata';
-src: url('/fonts/Inconsolata-webfont.eot');
-src: local('☺'), url('/fonts/Inconsolata-webfont.woff') format('woff'), url('/fonts/Inconsolata-webfont.ttf') format('truetype'), url('/fonts/Inconsolata-webfont.svg#webfontX4pGz9fc') format('svg');
+font-family: 'inconsolata';
+src: url('../fonts/inconsolata.eot');
+src: local('☺'), url('../fonts/inconsolata.woff') format('woff'), url('../fonts/inconsolata.ttf') format('truetype'), url('../fonts/inconsolata.svg#webfontX4pGz9fc') format('svg');
 font-weight: 500;
 font-style: normal;
 }
@@ -129,7 +129,8 @@ font-style: normal;
 	background-color:#0A67A3;
 	margin:auto;
 	padding:0;
-	
+	min-height:600px;
+	min-width:360px;
 }
 
 .banner{
@@ -146,35 +147,47 @@ font-style: normal;
 
 .site-desc{
 	max-width:800px;
-	height:15%;
+	height:8%;
 	background-color:#3E97D1;
-	
+	text-align:center;
+	padding:2%;
+	font-size:1em;
+	font-family:kontrapunkt-light;
 }
 
 .lang-list{
-	max-width:800px;
-	height:68%;
+	width:100%;
+	height:auto;
 	background-color: #BFE4FF;
+	text-align:	center;
 }
 
 .lang-img{
 	text-align: left;
-	max-height: 100px;
-	max-width: 100px;
-	display: inline;
+	height:100px;	
+	width:100px;
+	display:inline;
 	box-shadow: 1px 1px 10px 1px rgba(0,0,155,0.3);
 	border-radius: 10px;
-	float: left;
-	height: 10em;
-	width: 10em;
+	float:left
 }
-age 
+
+.lang-btn{
+	float:left;
+	width:84%%;
+}
+
+.lang{
+	width:80%;
+	height:33%;
+	display:inline-block;
+	background-color: #BFE4FF;
+	-webkit-background-size: contain;
 	-moz-background-size:contain;
 	-k-background-size:contain;
 	background-repeat:no-repeat;
 	background-position:center;
 	text-align:center;
-	margin-left:33%;
 }
 .contentpage{
 	max-width:800px;
