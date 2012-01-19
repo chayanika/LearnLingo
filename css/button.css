@@ -41,15 +41,17 @@ Following additional class names are supported:
 	user-select: 			none;
 	text-align:center;
 	
+	
 /* layout */
-	padding: 				4%;
+	padding: 				3%;
 	margin: 				4%;
+	margin-bottom: 	3%
 	display: 				inline-block;
 	position: 				relative;
 	
-	-webkit-border-radius: 	8px;
-	-moz-border-radius: 	8px;
-	border-radius: 	8px;
+	-webkit-border-radius: 	2%;
+	-moz-border-radius: 	2%;
+	border-radius: 	2%;
 	
 /* effects */
 	border-top: 		1px solid rgba(255,255,255,0.8);
@@ -316,9 +318,9 @@ button.button:hover {
 /* round */
 .round, .round.glossy:after, .round.glass:after { 
 	border-top: none; 
-	-webkit-border-radius: 	1em; 
-	-moz-border-radius: 	1em; 
-	border-radius: 			1em; 
+	-webkit-border-radius: 	0.5em; 
+	-moz-border-radius: 	0.5em; 
+	border-radius: 			0.5em; 
 }
 
 /* oval */
