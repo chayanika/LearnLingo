@@ -83,6 +83,7 @@ font-style: normal;
 	height:15%;
 	font-family:lobster;
 	font-size:3em;
+	letter-spacing:0.15em;
 	text-shadow: 1px 1px white, -1px -1px #444, 0 0.1em rgba(0,0,0,0.5);
 	color:#C8C8C8;
 	text-align: center;
