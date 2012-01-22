@@ -79,7 +79,6 @@ font-style: normal;
 .banner{
 	position:relative;
 	top:0px;
-	max-width:800px;
 	height:15%;
 	font-family:lobster;
 	font-size:3em;
@@ -95,15 +94,35 @@ font-style: normal;
 	padding: 2% 2% 2% 2%;
 }
 
+
+.small-banner{
+	position:relative;
+	top:0px;
+	height:7%;
+	font-family:lobster;
+	font-size:2em;
+	letter-spacing:0.15em;
+	text-shadow: 1px 1px white, -1px -1px #444, 0 0.1em rgba(0,0,0,0.5);
+	color:#C8C8C8;
+	text-align: center;
+	background-color: #771E10;
+	/* background: url('../images/Logo.png') no-repeat center; */
+	-webkit-background-size: contain;
+	-moz-background-size: contain;
+	background-size: contain;
+	padding: 2% 2% 2% 2%;
+}
+
 .site-desc{
-	max-width:800px;
 	height:8%;
 	background-color:#D4632A;
 	color:white;
 	text-align:center;
-	padding:2%;
-	font-size:1em;
+	font-size:1.5em;
+	letter-spacing:0.1em;
 	font-family:titilliumtext22l;
+	text-shadow: -1px -1px white, 1px 1px #333;
+	padding:3% 0%;
 }
 
 .lang-list{
@@ -151,18 +170,23 @@ font-style: normal;
 	background-position:center;
 	text-align:center;
 }
-.contentpage{
-	max-width:800px;
-	height:70%;
-	background-color: #3E97D1;
-}
-.top-buttons{
-	max-width:800px;
-	height:20%;
-	margin-top: 20px;
-	border-spacing:20px;
+
+.nav-bar{
+	height:8%;
+	width:100%;
+	background-color:#D4632A;
+	color:white;
+	text-align:center;
+	font-size:1.5em;
+	letter-spacing:0.1em;
+	font-family:titilliumtext22l;
+	text-shadow: -1px -1px white, 1px 1px #333;
+	padding:3% 0%;
 }
 
+.nav-link{
+	font-size:1em;
+}
 .translation{
 	font-size:larger;
 	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
@@ -208,14 +232,30 @@ font-style: normal;
 	background-color:#dedede;
 }
 
-#descImage{
-	width:80px;
-	height:80px;
+#desc-img{
+	text-align:center;
 }
 
-#descText{
+#desc-text{
 	font-size:medium;
 }
+
+.paging {
+	display:block;
+	width:100%;
+	bottom:50px;
+}
+
+#prev{
+	display:inline-block;
+	float:left;
+}
+
+#next{
+	display:inline-block;
+	float:right;
+}
+
 
 .bottom-buttons{
 	max-width:10px;
