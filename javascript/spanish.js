@@ -29,16 +29,16 @@
 				
 			},
 			phrases : {
-				english : ["Place", "Where is the subway?", "Is the tip included?"],
-				translated : ["Lugar", "¿Dónde está el metro?", "¿Incluye la propina?"],
-				images : ["place.jpg", "subway.jpg", "tip.gif"],
-				description : [" ", "If you need to get by someone or leave a group of people: con permiso", " "]	
+				english : ["Place", "Where is the subway?", "Which direction?"],
+				translated : ["Lugar", "¿Dónde está el metro?", "¿En qué dirección?"],
+				images : ["place.jpg", "subway.jpg", "whichdirection1.jpg"],
+				description : [" ", " ", " "]	
 				
 			},
 			conversations : {
-				english : ["I don't understand", "I have reservations", "How much is it?", "Which direction?"],
-				translated : ["No entiendo", "Tego reservaciones", "¿Cuánto cuesta?", "¿Por dónde?"],
-				images : ["idontunderstand.jpg", "i_have_reservation.jpg", "HowMuchIsIt.gif", "whichdirection1.jpg"],
+				english : ["I don't understand", "I have reservations", "How much is it?", "Is the tip included?"],
+				translated : ["No entiendo", "Tego reservaciones", "¿Cuánto cuesta?", "¿Está la propina incluída?"],
+				images : ["idontunderstand.jpg", "i_have_reservation.jpg", "HowMuchIsIt.gif", "tip.gif"],
 				description : ["'No comprendo' also means 'I do not understand'", " ", " "]	
 				
 			}
@@ -52,10 +52,10 @@
 				
 			},
 			phrases : {
-				english : ["I dont want", "How much?", "Repeat, please."],
-				translated : ["No quiero", "¿Cuánto cuesta?", "Repita, por favor."],
-				images : ["IDontWant.gif", "how-much.jpg", "repeatPlease.gif"],
-				description : [" ", " ", " "]	
+				english : ["I dont want", "How much?", "Repeat, please.", "Excuse me"],
+				translated : ["No quiero", "¿Cuánto cuesta?", "Repita, por favor.", "Perdone"],
+				images : ["IDontWant.gif", "how-much.jpg", "repeatPlease.gif", ""],
+				description : [" ", " ", " ", "Perdone(begging pardon)/ Disculpe(getting attention), con permiso(If you need to get by someone or leave a group of people)"]	
 				
 			},
 			conversations : {
