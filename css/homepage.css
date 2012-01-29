@@ -207,21 +207,19 @@ font-style: normal;
 
 .selected {
 	background: #EBC132;
-	border-radius: 10px 10px 0px 0px;
-		background-image: linear-gradient(bottom, rgb(240,140,14) 27%, rgb(235,192,50) 64%);
-	background-image: -o-linear-gradient(bottom, rgb(240,140,14) 27%, rgb(235,192,50) 64%);
-  background-image: -moz-linear-gradient(bottom, rgb(240,140,14) 27%, rgb(235,192,50) 64%);
-	background-image: -webkit-linear-gradient(bottom, rgb(240,140,14) 27%, rgb(235,192,50) 64%);
-	background-image: -ms-linear-gradient(bottom, rgb(240,140,14) 27%, rgb(235,192,50) 64%);
-
+	border-radius: 10px 10px 0px 0px;	
+	background-image: linear-gradient(top, rgb(240,140,14) 27%, rgb(235,192,50) 64%);
+	background-image: -o-linear-gradient(top, rgb(240,140,14) 27%, rgb(235,192,50) 64%);
+	background-image: -moz-linear-gradient(top, rgb(240,140,14) 27%, rgb(235,192,50) 64%);
+	background-image: -webkit-linear-gradient(top, rgb(240,140,14) 27%, rgb(235,192,50) 64%);
+	background-image: -ms-linear-gradient(top, rgb(240,140,14) 27%, rgb(235,192,50) 64%);
 	background-image: -webkit-gradient(
 	linear,
-	left bottom,
 	left top,
+	left bottom,
 	color-stop(0.27, rgb(240,140,14)),
 	color-stop(0.64, rgb(235,192,50))
 );
-	
 }
 
 .home-icon{
@@ -241,41 +239,52 @@ font-style: normal;
 	width:100%;
 }
 
-table{
-	width:100%;
-	height:50%;
-}
-td{
-	font-family: Arial; 
-	font-size: 10pt;
-	font-weight:600;
-	text-align:center;
-}
-tr{
-	font-family:Arial;
-	font-size:20pt;
-	text-align:center;
-}
 .divTable{
 	display:table;
   width:100%;
 	height:50%; 
   border-spacing:15px;
-	
+	border:1px solid  #666666; 
+	border-radius:10px 10px 10px 10px;
+
 }
  .divRow{
   display:table-row;
-  width:auto;
+  width:100%;
 	border-spacing:10px;
-	
-	
+	font-size:100%;
+	text-align:center;
+	 
+}
+.divCellHead{
+	float:left;
+	display:table-cell;
+	width:49.5%;
+	font-size:150%;
+	padding-top:40px;
+	text-align:center;
+	border:1px solid #666666;
+	border-radius: 10px 10px 10px 10px;
 }
 .divCell{
   float:left;
-  display:table-column;
-  width:300px;
-	font-size:20px;
-	padding-top:50px;
+  display:table-cell;
+  width:45%;
+	font-size:100%;
+	padding-top:40px;
+	text-align:center;
+	border:1px solid #666666;
+}
+
+#translated{
+	font-size:larger;
+	font-style:italic;
+	font-family:"Times New Roman",Times,serif;
+}
+#english{
+	font-size:larger;
+	font-style:italic;
+	font-family:"Times New Roman", Times,serif;
 }
 .translation{
 	font-size:larger;
@@ -320,17 +329,20 @@ tr{
 	max-width:10px;
 	height:25%;
 	background-color:#EBC132;
+	text-align:center;
 }
 
 #desc-img{
 	text-align:center;
+	float:middle;
 }
 
 #desc-text{
 	font-size:medium;
 	width:100%;
-	height:25%;
-	text-align:left;
+	height:5%;
+	text-align:center;
+	font-style:italic;
 }
 
 .paging {
