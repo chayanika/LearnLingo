@@ -17,6 +17,9 @@
 		LL.listSize= LL.topic.english.length;
 		LL.counter=0;
 		LL.show(0);
+		//modifying the css-tabbed view
+		$(".selected").addClass("unselected").removeClass("selected");
+		$("#tab-" + topic).removeClass("unselected").addClass("selected");
 	};
 	
 	LL.show = function (diff) {

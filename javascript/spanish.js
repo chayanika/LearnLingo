@@ -8,10 +8,10 @@
 				description : [" ", " ", " "]	
 			},
 			phrases : {
-				english : ["pleased to meet you (m)", "Excuse me", "How's it going?", "How are you today?"],
-				translated : ["encantado", "perdón", "¿Cómo te va?", "Cómo está hoy?"],
-				images : ["pleaseToMeetYou.jpg","excuseme.jpg", "howzitgoing.jpg", "howareYouToday.jpg"],
-				description : ["'pleased to meet you (f): encantada'", "If you need to get by someone or leave a group of people: con permiso", " ", " "]		
+				english : ["pleased to meet you (m)", "How's it going?", "How are you today?"],
+				translated : ["encantado", "¿Cómo te va?", "Cómo está hoy?"],
+				images : ["pleaseToMeetYou.jpg", "howzitgoing.jpg", "howareYouToday.jpg"],
+				description : ["'pleased to meet you (f): encantada'", " ", " "]		
 			},
 			conversations : {
 				english : ["Let me introduce myself. My name is...", "Thank you for your business.", "I want to introduce you to a female friend. John, this is Mary.", "We should prepare for the worst."],

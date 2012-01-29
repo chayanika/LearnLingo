@@ -9,29 +9,39 @@
 	<script language="javascript" src="../../javascript/spanish.js"></script>
 	<script language="javascript" src="../../javascript/controller.js"></script>
 	<title>Learn Lingo</title>
-	<style type="text/css">
- 		.outer-cont{ 
- 			background-image:url(images/isuDzw.png);
- 			background-repeat:repeat-x; 
- 		}
- 		</style>
 </head>
 
 <body onLoad="LL.initLangSec('LLSpanish', 'business')">
 	<div class="outer-cont">
 		<div class="inner-cont">
 			<div class="small-banner"> LearnLingo</div>
-			<span class="nav-bar">
-				<a href="../../index.html" class="home-icon"><img src="../../images/home-icon.png" height="5%" width="5%"/></a>
-				<a id="tab-words" class="selected nav-link" onClick="LL.initDisplay('words')">Words</a>
-				<a id="tab-phrases" class="unselected nav-link" onClick="LL.initDisplay('phrases')">Greetings</a>
-				<a id="tab-conversations" class="unselected nav-link" onClick="LL.initDisplay('conversations')">Conversations</a>
-			</span>
+			<a href="../../index.html" class="home-icon"><img src="../../images/home-icon.png" height="100%" width="100%"/></a>
+			<div class="nav-bar">
+				<span id="tab-words" class="selected nav-link">
+					<a onClick="LL.initDisplay('words')">Words</a>
+				</span>
+				<span id="tab-phrases" class="selected nav-link">
+					<a class="unselected nav-link" onClick="LL.initDisplay('phrases')">Greetings</a>
+				</span>
+				<span id="tab-conversations" class="selected nav-link">
+					<a class="unselected nav-link" onClick="LL.initDisplay('conversations')">Conversations</a>
+				</span>
+			</div>
 			<div class="content-box">
-				<table>
-					<tr><th>English</th><th>Spanish</th></tr>
-					<tr><td id="english"></td><td id="translated"></td></tr>
-				</table>
+				<div class="divTable">
+             <div class="translate-box">
+                <div class="divCell" align="center">English</div>
+                <div  class="divCell">Spanish</div>
+						 </div>
+             <div class="divRow">
+							 <div class="divCell">
+                <div id="english"></div>
+							 </div>
+							 <div class="divCell">
+                <div id="translated"></div>
+               </div>
+						 </div>
+				
 				<div class="description">
 					<div id="desc-img"></div>
 					<div id="desc-text"></div>
