@@ -41,11 +41,11 @@
 		$("#translated").html("<span>" + LL.topic.translated[LL.counter] +"</span>");
 		
 		if (LL.topic.images[LL.counter] !== "") {
-			$("#desc-img").html("<img src='../../images/" + LL.topic.images[LL.counter] + "' height='100px' width='100px'>");
+			$("#desc-img").html("<img src='../../images/" + LL.topic.images[LL.counter] + "' height='70%' style='-moz-border-radius:5px;-webkit-border-radius:5px;border-radius:5px;'>");
 		}
 		
 		if (LL.topic.description[LL.counter] !== "") {
-			$("#desc-text").html(LL.topic.description[LL.counter]);
+			$("#desc-text").html("<span>" + LL.topic.description[LL.counter] + "</span>");
 		}
 	};
 	

@@ -126,17 +126,6 @@ padding: 2% 2% 2% 2%;
 }
 
 .site-desc{
-<<<<<<< HEAD
-	height:8%;
-	background-color:#D4632A;
-	color:white;
-	text-align:center;
-	font-size:1.5em;
-	letter-spacing:0.1em;
-	font-family:titilliumtext22l;
-	text-shadow: -1px -1px white, 1px 1px #333;
-	padding:3% 0%;
-=======
 height:5%;
 background-color:#D4632A;
 color:white;
@@ -146,7 +135,6 @@ letter-spacing:0.1em;
 font-family:titilliumtext22l;
 text-shadow: -1px -1px white, 1px 1px #333;
 padding:3% 0%;
->>>>>>> 7d76cf0d35295e442a6e632550338cdefad5ccdd
 }
 
 .topic {
@@ -240,7 +228,9 @@ width: 32%;
 height: 100%;
 vertical-align: middle;
 }
-
+.nav-link.ui-link {
+color:#48110C;
+}
 .selected {
 background: #EBC132;
 border-radius: 10px 10px 0px 0px;
@@ -265,7 +255,7 @@ background-color: rgba(255, 255, 255, 0.3);
 }
 
 .content-box {
-height:80%;
+height:73%;
 width:100%;
 }
 
@@ -274,30 +264,30 @@ width:100%;
   width:90%;
 	height:40%; 
 	margin:5%;
-  border-spacing:15px;
-	border:1px solid  #E38C2D; 
-	border-radius:10px 10px 10px 10px;
 	vertical-align: middle; 
 }
  .divRow{
   display:table-row;
   width:100%;
-	border-spacing:10px;
 	font-size:100%;
 	text-align:center;
 	 vertical-align: middle;
+    padding-left:1%;
 }
 .divCellEng, .divCellSpan{
 	float:left;
 	display:table-cell;
-	width:49%;
-	font-size:150%;
-	padding-top:40px;
+	width:47%;
+    padding-left:1%;
+    padding-right:1%;
+	font-size:100%;
 	text-align:center;
 	border:1px solid #E38C2D;
 	border-radius: 10px 0px 0px 0px;
 	background-color:red;
 	vertical-align: middle;
+    height:100%;
+    padding-top:3%
 }
 .divCellSpan{
 	border-radius: 0px 10px 0px 0px;
@@ -305,7 +295,10 @@ width:100%;
 .divCellEx, .divCellTrans{
   float:left;
   display:table-cell;
-  width:49%;
+  width:47%;
+  height:100%;
+    padding-left:1%;
+    padding-right:1%;
 	font-size:100%;
 	padding-top:40px;
 	text-align:center;
@@ -368,22 +361,29 @@ font-family:Verdana, Geneva, Arial, Helvetica, sans-serif;
 }
 
 .description{
-max-width:10px;
-height:25%;
+width:100%;
+height:50%;
 background-color:#EBC132;
 text-align:center;
+display:table;
 }
 
 #desc-img{
+display:table-row;
 text-align:center;
-float:middle;
+height:70%;
 }
 
 #desc-text{
+display:table-row;
 font-size:medium;
-height:5%;
+height:30%;
 text-align:center;
 font-style:italic;
+vertical-align:middle;
+padding-top:40px;
+float:left;
+width:100%;
 }
 
 .paging {
@@ -395,11 +395,17 @@ bottom:50px;
 #prev{
 display:inline-block;
 float:left;
+width:20%;
+height:5%;
+text-align:center;
 }
 
 #next{
 display:inline-block;
 float:right;
+width:20%;
+height:5%;
+text-align:center;
 }
 
 

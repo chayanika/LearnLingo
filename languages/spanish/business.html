@@ -1,11 +1,12 @@
 <html>
 
 <head>
-	<link rel="stylesheet" style="text/css" href="../../css/button.css">
-	<link rel="stylesheet" style="text/css" href="../../css/homepage.css">
-	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.0/jquery.mobile-1.0.min.css" />
-	<script src="http://code.jquery.com/jquery-1.6.4.min.js"></script>
-	<script src="http://code.jquery.com/mobile/1.0/jquery.mobile-1.0.min.js"></script>
+	<link rel="stylesheet" style="text/css" href="../../css/button.css"/>
+	<link rel="stylesheet" style="text/css" href="../../css/homepage.css"/>
+	<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+	<link rel="stylesheet" href="../../css/jquery.mobile-1.0.min.css" />
+	<script src="../../javascript/jquery-1.6.4.min.js"></script>
+	<script src="../../javascript/jquery.mobile-1.0.min.js"></script>
 	<script language="javascript" src="../../javascript/spanish.js"></script>
 	<script language="javascript" src="../../javascript/controller.js"></script>
 	<title>Learn Lingo</title>
@@ -29,11 +30,11 @@
 			</div>
 			<div class="content-box">
 				<div class="divTable">
-             <div class="divRow">
+             <div class="divRow" style="height:20%">
                 <div class="divCellEng" align="center">English</div>
                 <div  class="divCellSpan" align="center">Spanish</div>
 						 </div>
-             <div class="divRow">
+             <div class="divRow" style="height:78%">
 								<div class="divCellEx" id="english"></div>
                 <div class="divCellTrans" id="translated"></div>
 						 </div>
@@ -44,8 +45,10 @@
 				</div>
 			</div>
 			<div class="paging">
-				<div id="prev" onClick="LL.show(-1);">Prev</div>
-				<div id="next" onClick="LL.show(1);">Next</div>
+				<a id="prev" data-role="button" data-inline="true" onClick="LL.show(-1)">Prev</a>
+				<a id="next" data-role="button" data-inline="true" onClick="LL.show(1)">Next</a>
+				<!--<button id="prev" onClick="LL.show(-1);">Prev</button>
+				<button id="next" onClick="LL.show(1);">Next</button> -->
 			</div>
 		</div>
 	</div>
