@@ -271,9 +271,9 @@ width:100%;
 
 .divTable{
 	display:table;
-  width:100%;
+  width:90%;
 	height:40%; 
-	margin-top:10px;
+	margin:5%;
   border-spacing:15px;
 	border:1px solid  #E38C2D; 
 	border-radius:10px 10px 10px 10px;
@@ -290,7 +290,7 @@ width:100%;
 .divCellEng, .divCellSpan{
 	float:left;
 	display:table-cell;
-	width:49.8%;
+	width:49%;
 	font-size:150%;
 	padding-top:40px;
 	text-align:center;
@@ -305,7 +305,7 @@ width:100%;
 .divCellEx, .divCellTrans{
   float:left;
   display:table-cell;
-  width:49.8%;
+  width:49%;
 	font-size:100%;
 	padding-top:40px;
 	text-align:center;
