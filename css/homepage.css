@@ -125,6 +125,16 @@ font-style: normal;
 	padding:3% 0%;
 }
 
+.topic {
+	width: 100%;
+	display:table-row;
+	text-align:center;
+	vertical-align:middle;
+}
+.topic-button, .social {
+	display:table-cell;
+}
+
 .lang-list{
 	width:100%;
 	height:69%;
@@ -232,7 +242,7 @@ font-style: normal;
 .divTable{
 	display:table;
   width:100%;
-	height:50%; 
+	height:40%; 
   border-spacing:15px;
 	border:1px solid  #E38C2D; 
 	border-radius:10px 10px 10px 10px;
@@ -246,7 +256,7 @@ font-style: normal;
 	text-align:center;
 	 vertical-align: middle;
 }
-.divCellEng{
+.divCellEng, .divCellSpan{
 	float:left;
 	display:table-cell;
 	width:49.8%;
@@ -259,18 +269,9 @@ font-style: normal;
 	vertical-align: middle;
 }
 .divCellSpan{
-	float:left;
-	display:table-cell;
-	width:49.8%;
-	font-size:150%;
-	padding-top:40px;
-	text-align:center;
-	border:1px solid #E38C2D;
 	border-radius: 0px 10px 0px 0px;
-	background-color:red;
-	vertical-align: middle;
 }
-.divCell{
+.divCellEx, .divCellTrans{
   float:left;
   display:table-cell;
   width:49.8%;
@@ -280,7 +281,10 @@ font-style: normal;
 	border:1px solid #E38C2D;
 	background-color:blue;
 	vertical-align: middle;
-	border-radius:0px 0px 0px 0px;
+	border-radius:0px 0px 0px 10px;
+}
+.divCellTrans{
+	border-radius: 0px 0px 10px 0px;
 }
 
 #translated{

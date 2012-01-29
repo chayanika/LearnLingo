@@ -37,8 +37,8 @@
 		
 		//updating the counter
 		LL.counter = LL.counter + diff;
-		$("#english").html(LL.topic.english[LL.counter]);
-		$("#translated").html(LL.topic.translated[LL.counter]);
+		$("#english").html("<span>" + LL.topic.english[LL.counter] +"</span>");
+		$("#translated").html("<span>" + LL.topic.translated[LL.counter] +"</span>");
 		
 		if (LL.topic.images[LL.counter] !== "") {
 			$("#desc-img").html("<img src='../../images/" + LL.topic.images[LL.counter] + "' height='100px' width='100px'>");
