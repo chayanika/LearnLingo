@@ -134,7 +134,11 @@ font-style: normal;
 .topic-button, .social {
 	display:table-cell;
 }
-
+.topic-lis{
+	width: 100%;
+	height: 70%;
+	display:table;
+}
 .lang-list{
 	width:100%;
 	height:69%;
