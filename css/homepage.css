@@ -125,6 +125,16 @@ font-style: normal;
 	padding:3% 0%;
 }
 
+.topic {
+	width: 100%;
+	display:table-row;
+	text-align:center;
+	vertical-align:middle;
+}
+.topic-button, .social {
+	display:table-cell;
+}
+
 .lang-list{
 	width:100%;
 	height:69%;
