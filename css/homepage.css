@@ -79,7 +79,7 @@ font-style: normal;
 .banner{
 	position:relative;
 	top:0px;
-	height:15%;
+	height:11%;
 	font-family:lobster;
 	font-size:3em;
 	letter-spacing:0.15em;
@@ -114,7 +114,7 @@ font-style: normal;
 }
 
 .site-desc{
-	height:8%;
+	height:5%;
 	background-color:#D4632A;
 	color:white;
 	text-align:center;
