@@ -166,11 +166,13 @@ button.button:hover {
 .button.green:hover { 	background-color: hsl(88, 70%, 75%); }
 
 .size{	
-	width:200px;
-	height:75px;
-	text-align:right;
-	//margin-left;
-	//vertical-align:middle;
+	width80%;
+	height:60%;
+	text-align:left;
+    line-height:2em;
+    -webkit-border-radius:15px;
+    -moz-border-radius:15px;
+    border-radius:15px;
 	display:inline-block;
 }
 .button.pink {
