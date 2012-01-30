@@ -1,45 +1,54 @@
 <html>
 
 <head>
-	<link rel="stylesheet" style="text/css" href="../../css/button.css">
-	<link rel="stylesheet" style="text/css" href="../../css/homepage.css">
-	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.0/jquery.mobile-1.0.min.css" />
-	<script src="http://code.jquery.com/jquery-1.6.4.min.js"></script>
-	<script src="http://code.jquery.com/mobile/1.0/jquery.mobile-1.0.min.js"></script>
+	<link rel="stylesheet" style="text/css" href="../../css/button.css"/>
+	<link rel="stylesheet" style="text/css" href="../../css/homepage.css"/>
+	<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+	<link rel="stylesheet" href="../../css/jquery.mobile-1.0.min.css" />
+	<script src="../../javascript/jquery-1.6.4.min.js"></script>
+	<script src="../../javascript/jquery.mobile-1.0.min.js"></script>
 	<script language="javascript" src="../../javascript/spanish.js"></script>
 	<script language="javascript" src="../../javascript/controller.js"></script>
 	<title>Learn Lingo</title>
-	<style type="text/css">
- 		.outer-cont{ 
- 			background-image:url(images/isuDzw.png);
- 			background-repeat:repeat-x; 
- 		}
- 		</style>
 </head>
 
 <body onLoad="LL.initLangSec('LLSpanish', 'everyday')">
 	<div class="outer-cont">
 		<div class="inner-cont">
 			<div class="small-banner"> LearnLingo</div>
-			<span class="nav-bar">
-				<a href="../../index.html" class="home-icon"><img src="../../images/home-icon.png" height="5%" width="5%"/></a>
-				<a id="tab-words" class="selected nav-link" onClick="LL.initDisplay('words')">Words</a>
-				<a id="tab-phrases" class="unselected nav-link" onClick="LL.initDisplay('phrases')">Phrases</a>
-				<a id="tab-conversations" class="unselected nav-link" onClick="LL.initDisplay('conversations')">Conversations</a>
-			</span>
+			<a href="../../index.html" class="home-icon"><img src="../../images/home-icon.png" height="100%" width="100%"/></a>
+			<div class="nav-bar">
+				<span id="tab-words" class="selected nav-link">
+					<a onClick="LL.initDisplay('words')">Words</a>
+				</span>
+				<span id="tab-phrases" class="selected nav-link">
+					<a class="unselected nav-link" onClick="LL.initDisplay('phrases')">Phrases</a>
+				</span>
+				<span id="tab-conversations" class="selected nav-link">
+					<a class="unselected nav-link" onClick="LL.initDisplay('conversations')">Conversations</a>
+				</span>
+			</div>
 			<div class="content-box">
-				<table>
-					<tr><th>English</th><th>Spanish</th></tr>
-					<tr><td id="english"></td><td id="translated"></td></tr>
-				</table>
+				<div class="divTable">
+             <div class="divRow" style="height:20%">
+                <div class="divCellEng" align="center">English</div>
+                <div  class="divCellSpan" align="center">Spanish</div>
+						 </div>
+             <div class="divRow" style="height:78%">
+								<div class="divCellEx" style="background:url(../../images/yellow-notebook1.jpg) no-repeat; -webkit-background-size:100%;" id="english"></div>
+                <div class="divCellTrans" style="background:url(../../images/yellow-notebook1.jpg) no-repeat; -webkit-background-size:100%;" id="translated"></div>
+						 </div>
+				</div>
 				<div class="description">
 					<div id="desc-img"></div>
 					<div id="desc-text"></div>
 				</div>
 			</div>
 			<div class="paging">
-				<div id="prev" onClick="LL.show(-1);">Prev</div>
-				<div id="next" onClick="LL.show(1);">Next</div>
+				<a id="prev" data-role="button" data-inline="true" onClick="LL.show(-1)">Prev</a>
+				<a id="next" data-role="button" data-inline="true" onClick="LL.show(1)">Next</a>
+				<!--<button id="prev" onClick="LL.show(-1);">Prev</button>
+				<button id="next" onClick="LL.show(1);">Next</button> -->
 			</div>
 		</div>
 	</div>

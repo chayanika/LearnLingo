@@ -278,16 +278,18 @@ width:100%;
 	float:left;
 	display:table-cell;
 	width:47%;
+	color: #FFF380;
     padding-left:1%;
     padding-right:1%;
 	font-size:100%;
 	text-align:center;
 	border:1px solid #E38C2D;
 	border-radius: 10px 0px 0px 0px;
-	background-color:red;
+	background-color:#8A4117;
 	vertical-align: middle;
     height:100%;
     padding-top:3%
+
 }
 .divCellSpan{
 	border-radius: 0px 10px 0px 0px;
@@ -297,13 +299,13 @@ width:100%;
   display:table-cell;
   width:47%;
   height:100%;
-    padding-left:1%;
-    padding-right:1%;
+  padding-left:1%;
+  padding-right:1%;
+	color:#0B0B3B;
 	font-size:100%;
 	padding-top:40px;
 	text-align:center;
 	border:1px solid #E38C2D;
-	background-color:blue;
 	vertical-align: middle;
 	border-radius:0px 0px 0px 10px;
 }
@@ -384,6 +386,7 @@ vertical-align:middle;
 padding-top:40px;
 float:left;
 width:100%;
+color:#15317E;
 }
 
 .paging {
