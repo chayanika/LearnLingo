@@ -61,7 +61,7 @@
 			conversations : {
 				english : ["I need to go to the store", "What's your name?", "Do you speak Spanish?"],
 				translated : ["Necesito ir a la tienda", "¿Cómo se llama?", "¿Hablo un poquito?"],
-				images : ["store2.jpg", "whatIsYourName2.jpg", "DoYouSpeakSpanish2 .jpg"],
+				images : ["store2.jpg", "whatIsYourName2.jpg", "DoYouSpeakSpanish2.jpg"],
 				description : [" ", " ", " "]	
 				
 			}
