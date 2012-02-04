@@ -1,17 +1,18 @@
 (function() {
 	var LL= LL || {};
 	LL.counter= 0;
-	LL.lang= "";
-	LL.section= "";
-	LL.topic= "";
+	LL.lang= ""; //languages (spanish, french, chinese)  
+	LL.section= "";//requirement purpose(business, tourist, everyday)
+	LL.topic= ""; // within section(words, phrases, conversation)
 	LL.listSize =0;
 	
-	LL.initLangSec = function (language, section) {
+		//index.html page/section page
+	LL.initLangSec = function (language, section) { 
 		LL.lang=window[language];
 		LL.section= LL.lang[section];
 		LL.initDisplay('words');
 	};
-	
+		//functionality of topic page 
 	LL.initDisplay = function (topic) {
 		LL.topic= LL.section[topic];
 		LL.listSize= LL.topic.english.length;
